@@ -20,11 +20,14 @@ header{
 }
 #navBar{
     text-align: right;
-    padding: 20px;
+    padding: 15px;
+    margin-right: 25px;
 }
 
 .header-li{
-    display: inline;
+    display: inline-block;
+    width:150px;
+    font-size: 22px;
 }
  
 .navFont{
