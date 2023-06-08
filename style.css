@@ -60,13 +60,16 @@ header{
 
  
 .navFont{
+    display: inline-block;
     color: white;
     text-decoration: none;
 }
-
 .navFont:hover {
 color: var(--pri-color);
 text-shadow: 0 0 6px white;
+transform: scale(0.9);
+transition: .3s;
+
 }
 
 /* --logo begin-- */
