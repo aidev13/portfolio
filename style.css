@@ -7,25 +7,48 @@
     --sec-color: rgb(66, 66, 66);
 }
 
+/* -- Background code is pure CSS code by: https://codepen.io/P1N2O/pen/pyBNzX -- with few modification by myself*/
+header {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 800% 800%;
+	animation: gradient 20s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ /* -- end of code snippet by https://codepen.io/P1N2O/pen/pyBNzX -- */
+
 body{
-    background-color: rgb(255, 255, 255);
+
     margin-top: 75px;
 }
 
 header{
     position: fixed;
-    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(77, 0, 92));
     top: 0;
     height: 60px;
     width: 100%;
     background-color: rgb(197, 197, 197);
-    box-shadow: 0px 3px 10px rgb(161, 161, 161);
+    box-shadow: 0px 3px 15px rgb(161, 161, 161);
+    
+    
 
 }
 #navBar{
     text-align: right;
     padding: 15px;
     margin-right: 25px;
+    
 }
 
 .header-li{
@@ -58,6 +81,7 @@ header{
     border-radius: 100px;
     box-shadow: 0px 0px 50px white;
     border: 1px solid var(--pri-color);
+    
 }
 /* --Logo end-- */
 
@@ -72,6 +96,7 @@ section {
 
 main img {
     max-width: 400px;
+    border: 2px black solid; /*temperey border */
 }
 
 /* -- FlexBox Sections -- */
@@ -81,7 +106,7 @@ main img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 
@@ -93,6 +118,7 @@ main img {
     border: 2px solid var(--pri-color);
     padding: 5px;
     margin: 3px;
+    
 }
 
 .card {
@@ -105,7 +131,7 @@ main img {
     margin-top: -35px;
     margin-right: 50px;
     margin-left: -35px;
-    padding-left:8px;
+    padding-left: 15px;
     border-radius: 18px;
     background-color: rgb(255, 255, 255);
 
@@ -116,6 +142,11 @@ main img {
     margin: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 /* -- CSS card hover styles -- */
 
 .card-body:hover,
@@ -124,6 +155,31 @@ main img {
     border-color: darkgray;
     transition: .1s;
     transform: scale(1.03);
+    transform: rotate(3deg)
     
 }
 
+
+
+hr {
+    margin: 50px;
+    border: 2px solid black;
+}
+
+/* end of top section style */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/placeholder-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Start of second section style -- */
+
+div > h2 {
+    font-size:65px;
+    text-align: center;
+}
