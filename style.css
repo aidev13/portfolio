@@ -3,14 +3,13 @@
     margin: 0px;
 }
 body{
-    position: relative;
     background-color: rgb(255, 255, 255);
     margin-top: 75px;
 }
 
 header{
     position: fixed;
-    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(124, 124, 124));
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(77, 0, 92));
     top: 0;
     height: 60px;
     width: 100%;
@@ -29,12 +28,81 @@ header{
     width:150px;
     font-size: 22px;
 }
+
  
 .navFont{
     color: white;
     text-decoration: none;
 }
 
-h1{
+/* --logo begin-- */
+#logo{
+    position: fixed;
+    width: 150px;
+    top: 25px;
+    left: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 50px purple;
+    border: 1px solid white;
+}
+
+#logo:hover {
+    position: relative;
+    width: 150px;
+    top: -50px;
+    left: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 50px white;
+    border: 1px solid purple;
+}
+/* --Logo end-- */
+
+h1, p{
     text-align: center;
+
+}
+
+section {
+    margin: 25px;
+}
+
+/* -- FlexBox Sections -- */
+
+.flex-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 125px;
+    margin-bottom: 15px;
+}
+
+
+/* cards styles */
+
+.card-body {
+    background-color: rgb(215, 236, 255);
+    border-radius: 18px;
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+.card {
+    max-width: 300px;
+    margin: 15px;
+}
+
+.card-header {
+    border: 2px solid purple;
+    margin-top: -35px;
+    margin-right: 50px;
+    margin-left: -35px;
+    padding-left:8px;
+    border-radius: 18px;
+    background-color: rgb(215, 236, 255);
+
+}
+
+.card-intro {
+    color: purple;
+    margin:5px;
 }
