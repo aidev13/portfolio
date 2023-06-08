@@ -55,12 +55,18 @@ header{
     display: inline-block;
     width:150px;
     font-size: 22px;
+    color: black
 }
 
  
 .navFont{
     color: white;
     text-decoration: none;
+}
+
+.navFont:hover {
+color: var(--pri-color);
+text-shadow: 0 0 6px white;
 }
 
 /* --logo begin-- */
@@ -103,9 +109,9 @@ main img {
 
 .flex-box-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 10px;
 }
 
@@ -117,7 +123,7 @@ main img {
     border-radius: 18px;
     border: 2px solid var(--pri-color);
     padding: 5px;
-    margin: 3px;
+    margin: 10px;
     
 }
 
@@ -142,7 +148,7 @@ main img {
     margin: 5px;
 }
 
-a {
+section a {
     text-decoration: none;
 }
 
@@ -155,7 +161,7 @@ a {
     border-color: darkgray;
     transition: .1s;
     transform: scale(1.03);
-    transform: rotate(3deg)
+    transform: rotate(1deg)
     
 }
 
@@ -183,3 +189,5 @@ div > h2 {
     font-size:65px;
     text-align: center;
 }
+
+/* Media Queries */
