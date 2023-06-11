@@ -113,4 +113,16 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
+
+# README NOTES:
+
+* Users Github account: https://github.com/aidev13
+
+* Github repo link: https://github.com/aidev13/portfolio
+
+* Github deployed site: https://aidev13.github.io/portfolio/
+
+
+
+- - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
