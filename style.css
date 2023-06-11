@@ -90,9 +90,13 @@ h1 {
 /* -- Media Quaries -- */
 @media screen and (max-width: 962px) {
 .parent-container {
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 15px 15px;
     
+}
+
+.child-1 {
+    margin: auto;
 }
 
 }
@@ -190,7 +194,7 @@ button:hover {
 
 /* -- BEGIN OF SECOND SECTION -- */
 
-.card-size {
+.contact-layout {
     display: flex;
     flex-direction: row;
     color: white;
@@ -213,14 +217,43 @@ button:hover {
     border-radius: 15px;
 }
 
-.card-info {
-    display: flex;
+.contact-info {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
     margin: auto;
 }
+
+
+/* -- END OF SECOND SECTION -- */
+
+/* --BEGIN OF THRID SECTION -- */
+
+.wip {
+    margin: 85px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.work-title {
+    padding-bottom: 30px;
+}
+
+.work-icon {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center
+
+}
+
+.img-layout {
+    display: inline-flex;
+}
+
+/* -- END OF THIRD SECTION -- */
 
 footer {
     min-height: 75px;
