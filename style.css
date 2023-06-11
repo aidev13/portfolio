@@ -9,11 +9,7 @@
     --accent-shadow: rgb(255, 0, 179);
 }
 
-/* -- Header/Nac Code -- */
 
-/* -- Background code is pure CSS code by: https://codepen.io/P1N2O/pen/pyBNzX -- with few modification by myself*/
-
- /* -- end of code snippet by https://codepen.io/P1N2O/pen/pyBNzX -- */
 
  /* -- BACKGROUND IMAGE -- */
 
@@ -251,6 +247,19 @@ button:hover {
 
 .img-layout {
     display: inline-flex;
+}
+
+.sample-icon {
+    border: 3px solid var(--accent-shadow);
+    box-shadow: 0 0 10px var(--accent-shadow);
+    border-radius: 999px;
+    width:80px;
+}
+
+.sample-icon:hover {
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--accent-shadow);
 }
 
 /* -- END OF THIRD SECTION -- */
