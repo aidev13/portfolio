@@ -5,7 +5,7 @@
 
 }
 :root {
-    --button-color: darkgray;
+    --button-color: white;
     --accent-shadow: rgb(255, 0, 179);
 }
 
@@ -56,13 +56,10 @@ header{
 color: white;
 text-shadow: 0 0 10px var(--accent-shadow);
 transform: scale(0.95);
-transition: .3s;
+transition: .25s;
 
 }
 
-.hero {
-    background-image: image();
-}
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -118,6 +115,7 @@ h1 {
 .space-between {
 min-height: 50px;
 }
+
 hr {
     margin: 0 250px;
 }
@@ -133,7 +131,6 @@ hr {
     border: 4px white solid;
 }
 
-/* -- child-2 Hover CSS -- */
 
 .child-2:hover {
     transition: 0.5s;
@@ -158,31 +155,29 @@ hr {
 }
 
 
-p {
-    padding: 0 8px;
-}
+/* -- BUTTON CSS -- */
 
 button {
     padding: 8px 30px;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
+    background-color: var(--button-color);
+    border: 2px solid black;
     box-shadow: 0 0 3px 1px black;
     border-radius: 30px;
     margin-bottom: 15px;
-    cursor:pointer;
+    cursor:pointer; 
+    font-weight: 600;
 }
 
 .git-button-text {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 button:hover {
     background-color: var(--button-color);
-    box-shadow:0 0 0px 2px var(--button-color);
-    color: black;
+    box-shadow:0 0 5px 3px var(--accent-shadow);
     font-weight: bolder;
+    transition: 250ms;
 
 }
 
@@ -247,6 +242,10 @@ button:hover {
 
 .img-layout {
     display: inline-flex;
+    max-width: 0;
+    gap: 30px;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .sample-icon {
