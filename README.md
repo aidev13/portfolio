@@ -122,7 +122,7 @@ You are required to submit BOTH of the following for review:
 
 * Github deployed site: https://aidev13.github.io/portfolio/
 
-![Screenshot of webpage]()
+* Screenshot: ![Screenshot of webpage](./images/website-snip.png)
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

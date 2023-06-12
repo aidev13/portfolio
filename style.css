@@ -13,11 +13,8 @@
 
  /* -- BACKGROUND IMAGE -- */
 
- html { 
+ body { 
     background: url(images/outrun-neon-dark-background-purple.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
   }
 
@@ -29,19 +26,17 @@ header{
     height: 60px;
     width: 100%;
 
-    
 }
 
 #navBar{
     text-align: right;
-    padding: 15px;
-    margin-right: 25px;
+    padding: 8px;
     
 }
 
 .header-li{
     display: inline-block;
-    width:150px;
+    width:125px;
     font-size: 22px;
     color: black;
 }
@@ -71,12 +66,11 @@ h1 {
 /* Into (Top/First) Section */
 
 .parent-container {
-    padding: 15px 90px;
+    padding: 15px 50px;
     display: inline-flex;
     flex-direction: row;
     gap:15px;
     margin: 10px;
-    
     
 }
 
@@ -87,7 +81,7 @@ h1 {
 }
 
 
-.child-1 {
+.card-1 {
     max-width: 300px;
     padding: 10px;
     color: white;
@@ -108,7 +102,7 @@ hr {
     margin: 0 250px;
 }
 
-.child-2 {
+.card-2 {
     padding: 25px 10px;
     background: linear-gradient(315deg, rgba(105,105,105,1) 0%, rgba(34,34,34,1) 73%);
     box-shadow: 5px 5px 10px gray;
@@ -120,7 +114,7 @@ hr {
 }
 
 
-.child-2:hover, .horiseon-img:hover {
+.card-2:hover, .horiseon-img:hover {
     transition: 0.5s;
     border: 4px var(--accent-shadow) solid;
     box-shadow: 5px 5px 20px rgb(68, 68, 68);
@@ -218,9 +212,10 @@ text-align: left;
 
 .sample-card {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     margin: 30px;
+    align-items: flex-start;
 }
 
 .sample-title {
@@ -279,7 +274,7 @@ footer {
     
     .sample-img{
     display: flex;
-    max-width: 300px;
+    width: 50%;
     }
 
 
@@ -304,5 +299,19 @@ footer {
         font-size: 20px;
         text-align: center;
     }
+
+    .contact-layout{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .contact-title {
+            border-right: none;
+            border-bottom: 5px solid var(--accent-shadow);
+            text-align: center;
+    }
     
+    hr {
+        margin: 50px;
+    }
     }
