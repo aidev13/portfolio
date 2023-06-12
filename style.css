@@ -36,7 +36,7 @@ header{
 
 .header-li{
     display: inline-block;
-    width:125px;
+    width:150px;
     font-size: 22px;
     color: black;
 }
@@ -45,6 +45,7 @@ header{
     display: inline-block;
     color: white;
     text-decoration: none;
+    margin: 10px;
 }
 
 .navFont:hover {
@@ -69,7 +70,7 @@ h1 {
     padding: 15px 50px;
     display: inline-flex;
     flex-direction: row;
-    gap:15px;
+    gap:50px;
     margin: 10px;
     
 }
@@ -119,7 +120,10 @@ hr {
     border: 4px var(--accent-shadow) solid;
     box-shadow: 5px 5px 20px rgb(68, 68, 68);
     transform: scale(1.015);
+}
 
+.horiseon-img:hover {
+    rotate: 362deg; /* JUST MAKING IT FUN */
 }
 
 .title-header{ 
@@ -204,7 +208,6 @@ button:hover {
 /* --BEGIN OF THRID SECTION -- */
 
 h3>p {
-
 font-size: 16px;
 font-weight: 400;
 text-align: left;
@@ -238,23 +241,6 @@ text-align: left;
     border: 4px solid white;
 }
 
-
-
-
-/* .sample-icon {
-    border: 3px solid var(--accent-shadow);
-    box-shadow: 0 0 10px var(--accent-shadow);
-    border-radius: 999px;
-    width:80px;
-}
-
-.sample-icon:hover {
-    transition: .5s;
-    transform: scale(1.1);
-    box-shadow: 0 0 20px var(--accent-shadow);
-} */
-
-
 /* -- END OF THIRD SECTION -- */
 
 
@@ -263,6 +249,7 @@ footer {
     color: white;
     text-align: center;
 }
+
 
 /* -- Media Quaries -- */
 @media screen and (max-width: 962px) {
